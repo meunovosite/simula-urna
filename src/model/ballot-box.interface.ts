@@ -2,29 +2,17 @@
 
 /**
  * @description vote order
- * @step 1 - DEPUTADO_FEDERAL
- * @step 2 - DEPUTADO_ESTADUAL
- * @step 3 - SENADOR_1
- * @step 4 - SENADOR_2
- * @step 5 - GOVERNADOR
- * @step 6 - PRESIDENTE
+ * @step 1 - VEREADOR
+ * @step 2 - PREFEITO
  */
 export const IPositions = {
-    DEPUTADO_FEDERAL: 'DEPUTADO_FEDERAL',
-    DEPUTADO_ESTADUAL: 'DEPUTADO_ESTADUAL',
-    SENADOR_1: 'SENADOR_1',
-    SENADOR_2: 'SENADOR_2',
-    GOVERNADOR: 'GOVERNADOR',
-    PRESIDENTE: 'PRESIDENTE',
+    VEREADOR: 'VEREADOR',
+    PREFEITO: 'PREFEITO',
 };
 
 export const IQuantityNumbers = {
-    DEPUTADO_FEDERAL: 4,
-    DEPUTADO_ESTADUAL: 5,
-    SENADOR_1: 3,
-    SENADOR_2: 3,
-    GOVERNADOR: 2,
-    PRESIDENTE: 2,
+    VEREADOR: 5,
+    PREFEITO: 2,
 };
 
 export type IPosition = keyof typeof IPositions;
