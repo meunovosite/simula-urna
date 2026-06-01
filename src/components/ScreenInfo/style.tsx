@@ -13,7 +13,8 @@ interface IContentRow {
 }
 
 export const Style = styled.div`
-    display: inline-flex;
+    display: flex;
+    flex-direction: column;
     width: 100%;
     height: 30rem;
     min-width: 100%;
@@ -21,6 +22,28 @@ export const Style = styled.div`
     max-width: 35rem;
     background-color: transparent;
     padding: 2%;
+`;
+
+export const ContentMain = styled.div`
+    display: inline-flex;
+    width: 100%;
+    flex: 1;
+`;
+
+export const SenatorWarning = styled.div`
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    background-color: #FFD600;
+    color: #000;
+    font-size: 1.1rem;
+    font-weight: 300;
+    padding: 3px 8px;
+    border-radius: 3px;
+    width: 100%;
+    box-sizing: border-box;
+    line-height: 1.3;
 `;
 
 export const ScreenInfoData = styled.div`
