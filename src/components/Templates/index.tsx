@@ -17,9 +17,9 @@ export const Wrapper = styled.div`
     width: auto;
     height: auto;
     min-width: 1148px;
-    min-height: 720px;
     display: flex;
     flex-direction: column;
     align-content: center;
-    align-items: center
+    align-items: center;
+    padding-top: 50px;
 `;
