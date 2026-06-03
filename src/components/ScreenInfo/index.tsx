@@ -87,7 +87,7 @@ export default function ScreenInfo() {
             {isSenatorStep && (
                 <SenatorWarning>
                     <span>⚠</span>
-                    <span>Atenção: Vote em 2 senadores diferentes</span>
+                    <span>Atenção: Vote em dois senadores diferentes</span>
                 </SenatorWarning>
             )}
         </Style>
