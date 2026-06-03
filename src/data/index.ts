@@ -255,7 +255,7 @@ const candidates: ICandidate[] = [
     },
     {
         name: 'kim Namjoon',
-        group: 'Só dirijo Bycicle',
+        group: 'não sei fazer baliza',
         position: 'PRESIDENTE',
         image: 'image-8.png',
         number: '07',
